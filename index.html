@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Browser</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div id="top-bar">
+        <div id="tabs"></div>
+    </div>
+    <div id="nav-bar">
+        <button id="back">←</button>
+        <button id="forward">→</button>
+        <button id="reload">⟳</button>
+        <button id="home">🏠</button>
+        <input type="text" id="url-bar" placeholder="Enter URL or search">
+        <button id="bookmark">♡</button>
+        <button id="menu">☰</button>
+        <div id="menu-dropdown">
+            <button id="open-bookmarks">Bookmarks</button>
+            <button id="open-history">History</button>
+            <button id="open-settings">Settings</button>
+            <button id="open-about">About</button>
+        </div>
+    </div>
+    <div id="web-view"></div>
+</body>
+</html>
